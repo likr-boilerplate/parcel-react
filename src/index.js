@@ -1,4 +1,4 @@
 import './index.css'
-import '@babel/polyfill'
-
-import('./app')
+import 'core-js/stable'
+import 'regenerator-runtime/runtime'
+import './app'
